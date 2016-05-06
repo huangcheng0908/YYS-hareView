@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044FE65E1CDC90FC00FB1296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE65D1CDC90FC00FB1296 /* main.m */; };
+		044FE6611CDC90FC00FB1296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE6601CDC90FC00FB1296 /* AppDelegate.m */; };
+		044FE6641CDC90FC00FB1296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE6631CDC90FC00FB1296 /* ViewController.m */; };
+		044FE6671CDC90FC00FB1296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044FE6651CDC90FC00FB1296 /* Main.storyboard */; };
+		044FE6691CDC90FC00FB1296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044FE6681CDC90FC00FB1296 /* Assets.xcassets */; };
+		044FE66C1CDC90FC00FB1296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044FE66A1CDC90FC00FB1296 /* LaunchScreen.storyboard */; };
+		044FE6771CDC90FC00FB1296 /* YYS_hareViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE6761CDC90FC00FB1296 /* YYS_hareViewTests.m */; };
+		044FE6821CDC90FC00FB1296 /* YYS_hareViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE6811CDC90FC00FB1296 /* YYS_hareViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044FE6731CDC90FC00FB1296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044FE6511CDC90FB00FB1296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044FE6581CDC90FC00FB1296;
+			remoteInfo = "YYS\U0010hareView";
+		};
+		044FE67E1CDC90FC00FB1296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044FE6511CDC90FB00FB1296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044FE6581CDC90FC00FB1296;
+			remoteInfo = "YYS\U0010hareView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044FE6591CDC90FC00FB1296 /* YYShareView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YYS\U0010hareView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044FE65D1CDC90FC00FB1296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044FE65F1CDC90FC00FB1296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044FE6601CDC90FC00FB1296 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		044FE6621CDC90FC00FB1296 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044FE6631CDC90FC00FB1296 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044FE6661CDC90FC00FB1296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044FE6681CDC90FC00FB1296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044FE66B1CDC90FC00FB1296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044FE66D1CDC90FC00FB1296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FE6721CDC90FC00FB1296 /* YYShareViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YYS\U0010hareViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044FE6761CDC90FC00FB1296 /* YYS_hareViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYS_hareViewTests.m; sourceTree = "<group>"; };
+		044FE6781CDC90FC00FB1296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FE67D1CDC90FC00FB1296 /* YYShareViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YYS\U0010hareViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044FE6811CDC90FC00FB1296 /* YYS_hareViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYS_hareViewUITests.m; sourceTree = "<group>"; };
+		044FE6831CDC90FC00FB1296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044FE6561CDC90FC00FB1296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FE66F1CDC90FC00FB1296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FE67A1CDC90FC00FB1296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044FE6501CDC90FB00FB1296 = {
+			isa = PBXGroup;
+			children = (
+				044FE65B1CDC90FC00FB1296 /* YYShareView */,
+				044FE6751CDC90FC00FB1296 /* YYShareViewTests */,
+				044FE6801CDC90FC00FB1296 /* YYShareViewUITests */,
+				044FE65A1CDC90FC00FB1296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044FE65A1CDC90FC00FB1296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044FE6591CDC90FC00FB1296 /* YYShareView.app */,
+				044FE6721CDC90FC00FB1296 /* YYShareViewTests.xctest */,
+				044FE67D1CDC90FC00FB1296 /* YYShareViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044FE65B1CDC90FC00FB1296 /* YYShareView */ = {
+			isa = PBXGroup;
+			children = (
+				044FE65F1CDC90FC00FB1296 /* AppDelegate.h */,
+				044FE6601CDC90FC00FB1296 /* AppDelegate.m */,
+				044FE6621CDC90FC00FB1296 /* ViewController.h */,
+				044FE6631CDC90FC00FB1296 /* ViewController.m */,
+				044FE6651CDC90FC00FB1296 /* Main.storyboard */,
+				044FE6681CDC90FC00FB1296 /* Assets.xcassets */,
+				044FE66A1CDC90FC00FB1296 /* LaunchScreen.storyboard */,
+				044FE66D1CDC90FC00FB1296 /* Info.plist */,
+				044FE65C1CDC90FC00FB1296 /* Supporting Files */,
+			);
+			path = "YYS\U0010hareView";
+			sourceTree = "<group>";
+		};
+		044FE65C1CDC90FC00FB1296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044FE65D1CDC90FC00FB1296 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044FE6751CDC90FC00FB1296 /* YYShareViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				044FE6761CDC90FC00FB1296 /* YYS_hareViewTests.m */,
+				044FE6781CDC90FC00FB1296 /* Info.plist */,
+			);
+			path = "YYS\U0010hareViewTests";
+			sourceTree = "<group>";
+		};
+		044FE6801CDC90FC00FB1296 /* YYShareViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				044FE6811CDC90FC00FB1296 /* YYS_hareViewUITests.m */,
+				044FE6831CDC90FC00FB1296 /* Info.plist */,
+			);
+			path = "YYS\U0010hareViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044FE6581CDC90FC00FB1296 /* YYShareView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044FE6861CDC90FC00FB1296 /* Build configuration list for PBXNativeTarget "YYShareView" */;
+			buildPhases = (
+				044FE6551CDC90FC00FB1296 /* Sources */,
+				044FE6561CDC90FC00FB1296 /* Frameworks */,
+				044FE6571CDC90FC00FB1296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YYS\U0010hareView";
+			productName = "YYS\U0010hareView";
+			productReference = 044FE6591CDC90FC00FB1296 /* YYShareView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044FE6711CDC90FC00FB1296 /* YYShareViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044FE6891CDC90FC00FB1296 /* Build configuration list for PBXNativeTarget "YYShareViewTests" */;
+			buildPhases = (
+				044FE66E1CDC90FC00FB1296 /* Sources */,
+				044FE66F1CDC90FC00FB1296 /* Frameworks */,
+				044FE6701CDC90FC00FB1296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044FE6741CDC90FC00FB1296 /* PBXTargetDependency */,
+			);
+			name = "YYS\U0010hareViewTests";
+			productName = "YYS\U0010hareViewTests";
+			productReference = 044FE6721CDC90FC00FB1296 /* YYShareViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044FE67C1CDC90FC00FB1296 /* YYShareViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044FE68C1CDC90FC00FB1296 /* Build configuration list for PBXNativeTarget "YYShareViewUITests" */;
+			buildPhases = (
+				044FE6791CDC90FC00FB1296 /* Sources */,
+				044FE67A1CDC90FC00FB1296 /* Frameworks */,
+				044FE67B1CDC90FC00FB1296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044FE67F1CDC90FC00FB1296 /* PBXTargetDependency */,
+			);
+			name = "YYS\U0010hareViewUITests";
+			productName = "YYS\U0010hareViewUITests";
+			productReference = 044FE67D1CDC90FC00FB1296 /* YYShareViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044FE6511CDC90FB00FB1296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jack YY";
+				TargetAttributes = {
+					044FE6581CDC90FC00FB1296 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					044FE6711CDC90FC00FB1296 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 044FE6581CDC90FC00FB1296;
+					};
+					044FE67C1CDC90FC00FB1296 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 044FE6581CDC90FC00FB1296;
+					};
+				};
+			};
+			buildConfigurationList = 044FE6541CDC90FB00FB1296 /* Build configuration list for PBXProject "YYShareView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044FE6501CDC90FB00FB1296;
+			productRefGroup = 044FE65A1CDC90FC00FB1296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044FE6581CDC90FC00FB1296 /* YYShareView */,
+				044FE6711CDC90FC00FB1296 /* YYShareViewTests */,
+				044FE67C1CDC90FC00FB1296 /* YYShareViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044FE6571CDC90FC00FB1296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FE66C1CDC90FC00FB1296 /* LaunchScreen.storyboard in Resources */,
+				044FE6691CDC90FC00FB1296 /* Assets.xcassets in Resources */,
+				044FE6671CDC90FC00FB1296 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FE6701CDC90FC00FB1296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FE67B1CDC90FC00FB1296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044FE6551CDC90FC00FB1296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FE6641CDC90FC00FB1296 /* ViewController.m in Sources */,
+				044FE6611CDC90FC00FB1296 /* AppDelegate.m in Sources */,
+				044FE65E1CDC90FC00FB1296 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FE66E1CDC90FC00FB1296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FE6771CDC90FC00FB1296 /* YYS_hareViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FE6791CDC90FC00FB1296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FE6821CDC90FC00FB1296 /* YYS_hareViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044FE6741CDC90FC00FB1296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044FE6581CDC90FC00FB1296 /* YYShareView */;
+			targetProxy = 044FE6731CDC90FC00FB1296 /* PBXContainerItemProxy */;
+		};
+		044FE67F1CDC90FC00FB1296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044FE6581CDC90FC00FB1296 /* YYShareView */;
+			targetProxy = 044FE67E1CDC90FC00FB1296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044FE6651CDC90FC00FB1296 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044FE6661CDC90FC00FB1296 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044FE66A1CDC90FC00FB1296 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044FE66B1CDC90FC00FB1296 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044FE6841CDC90FC00FB1296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		044FE6851CDC90FC00FB1296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044FE6871CDC90FC00FB1296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YYS\U0010hareView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novasoft.YYS-hareView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		044FE6881CDC90FC00FB1296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YYS\U0010hareView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novasoft.YYS-hareView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		044FE68A1CDC90FC00FB1296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "YYS\U0010hareViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novasoft.YYS-hareViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYS\U0010hareView.app/YYS\U0010hareView";
+			};
+			name = Debug;
+		};
+		044FE68B1CDC90FC00FB1296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "YYS\U0010hareViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novasoft.YYS-hareViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYS\U0010hareView.app/YYS\U0010hareView";
+			};
+			name = Release;
+		};
+		044FE68D1CDC90FC00FB1296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "YYS\U0010hareViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novasoft.YYS-hareViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "YYS\U0010hareView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		044FE68E1CDC90FC00FB1296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "YYS\U0010hareViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novasoft.YYS-hareViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "YYS\U0010hareView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044FE6541CDC90FB00FB1296 /* Build configuration list for PBXProject "YYShareView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FE6841CDC90FC00FB1296 /* Debug */,
+				044FE6851CDC90FC00FB1296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044FE6861CDC90FC00FB1296 /* Build configuration list for PBXNativeTarget "YYShareView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FE6871CDC90FC00FB1296 /* Debug */,
+				044FE6881CDC90FC00FB1296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044FE6891CDC90FC00FB1296 /* Build configuration list for PBXNativeTarget "YYShareViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FE68A1CDC90FC00FB1296 /* Debug */,
+				044FE68B1CDC90FC00FB1296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044FE68C1CDC90FC00FB1296 /* Build configuration list for PBXNativeTarget "YYShareViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FE68D1CDC90FC00FB1296 /* Debug */,
+				044FE68E1CDC90FC00FB1296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044FE6511CDC90FB00FB1296 /* Project object */;
+}
