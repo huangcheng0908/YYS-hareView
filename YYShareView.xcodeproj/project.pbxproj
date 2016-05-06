@@ -15,6 +15,8 @@
 		044FE66C1CDC90FC00FB1296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044FE66A1CDC90FC00FB1296 /* LaunchScreen.storyboard */; };
 		044FE6771CDC90FC00FB1296 /* YYS_hareViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE6761CDC90FC00FB1296 /* YYS_hareViewTests.m */; };
 		044FE6821CDC90FC00FB1296 /* YYS_hareViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE6811CDC90FC00FB1296 /* YYS_hareViewUITests.m */; };
+		044FE6921CDC914C00FB1296 /* YYShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE6911CDC914C00FB1296 /* YYShareView.m */; };
+		044FE6941CDC915800FB1296 /* YYShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044FE6931CDC915800FB1296 /* YYShareView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		044FE67D1CDC90FC00FB1296 /* YYShareViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YYS\U0010hareViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044FE6811CDC90FC00FB1296 /* YYS_hareViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYS_hareViewUITests.m; sourceTree = "<group>"; };
 		044FE6831CDC90FC00FB1296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FE6901CDC914C00FB1296 /* YYShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYShareView.h; sourceTree = "<group>"; };
+		044FE6911CDC914C00FB1296 /* YYShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYShareView.m; sourceTree = "<group>"; };
+		044FE6931CDC915800FB1296 /* YYShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYShareView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		044FE65B1CDC90FC00FB1296 /* YYShareView */ = {
 			isa = PBXGroup;
 			children = (
+				044FE68F1CDC912900FB1296 /* YYShare */,
 				044FE65F1CDC90FC00FB1296 /* AppDelegate.h */,
 				044FE6601CDC90FC00FB1296 /* AppDelegate.m */,
 				044FE6621CDC90FC00FB1296 /* ViewController.h */,
@@ -138,6 +144,16 @@
 				044FE6831CDC90FC00FB1296 /* Info.plist */,
 			);
 			path = "YYS\U0010hareViewUITests";
+			sourceTree = "<group>";
+		};
+		044FE68F1CDC912900FB1296 /* YYShare */ = {
+			isa = PBXGroup;
+			children = (
+				044FE6901CDC914C00FB1296 /* YYShareView.h */,
+				044FE6911CDC914C00FB1296 /* YYShareView.m */,
+				044FE6931CDC915800FB1296 /* YYShareView.xib */,
+			);
+			name = YYShare;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044FE6941CDC915800FB1296 /* YYShareView.xib in Resources */,
 				044FE66C1CDC90FC00FB1296 /* LaunchScreen.storyboard in Resources */,
 				044FE6691CDC90FC00FB1296 /* Assets.xcassets in Resources */,
 				044FE6671CDC90FC00FB1296 /* Main.storyboard in Resources */,
@@ -270,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044FE6921CDC914C00FB1296 /* YYShareView.m in Sources */,
 				044FE6641CDC90FC00FB1296 /* ViewController.m in Sources */,
 				044FE6611CDC90FC00FB1296 /* AppDelegate.m in Sources */,
 				044FE65E1CDC90FC00FB1296 /* main.m in Sources */,
@@ -412,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "YYS\U0010hareView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.novasoft.YYS-hareView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "YYS\U0010hareView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.novasoft.YYS-hareView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
